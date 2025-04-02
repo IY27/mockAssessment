@@ -1,10 +1,14 @@
 questions = [None]
 def menu():
-    None
+    print("")
 
 def question():
     None
 
 def description():
-    None
+    with open('description.txt','r')as f:
+            description = f.read()
+            print(description)
+            print()
 
+description()
