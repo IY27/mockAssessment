@@ -1,4 +1,4 @@
-questions = [None]
+questions = {""}
 
 max_age = 18
 min_age = 12
