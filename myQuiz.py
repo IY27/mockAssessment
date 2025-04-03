@@ -19,12 +19,14 @@ def option_menu():
     print()
     while True:
         option = int(input("Enter option : "))
-        if option == 1:
-            question()
-        elif option == 2:
-            exit()
+        while option == 1 or option == 2:
+            if option == 1:
+                question()
+            elif option == 2:
+                print("You have exited the quiz")
+                exit()
         else: 
-            print("Please choose between 1 or 2")
+                print("Please choose between 1 or 2")
 
 def question():
     None
