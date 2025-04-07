@@ -1,4 +1,6 @@
 Welcome to Ivan Yang's Quiz!
 This quiz is about NCEA Level 2 Phsyics.
 You must be between the ages of 12-18 to continue.
+You are allowed to use a calculator.
+For any questions involved with gravity: Gravity = 9.8ms-1 
 This quiz will display your score at the end of the quiz.
