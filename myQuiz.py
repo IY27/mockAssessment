@@ -1,4 +1,10 @@
-questions = {""}
+questions = {
+"A ball is dropped from 5m off the ground./n What is the speed of the ball before it hits the ground?":["9.9ms^-1","8.2ms^-1","10ms^-1","2.5ms^-1"],
+"What is the time it takes for the ball to hit the ground?":["1.01s","2s","10.9s","2mins"],
+"A car goes from rest to a speed of 20ms^-1 in 10 seconds./n What is the acceleration of the car?. ":["2ms^-2","1ms^-2","2.2ms^-2","10ms^-2"],
+"Find the distance travelled by the car.":["100m","50m","1km","3m"],
+"A car hits a wall with a speed of 50ms^-1 and penetrates 1m into the wall./n What is the deceleration as the car enters the wall?":["1250ms^-2","100km/h","1000ms^1","100ms^-2"]
+}
 
 max_age = 18
 min_age = 12
