@@ -51,6 +51,21 @@ def question():
                 print("Please enter the answer from the given answers")
                 continue
 
+def retry_menu():
+    print("Would you like to retry?")
+    print("1. Retry \n2. Exit")
+    print()
+    while True:
+        option = int(input("Enter option : "))
+        while option == 1 or option == 2:
+            if option == 1:
+                question()
+            elif option == 2:
+                print("You have exited the quiz")
+                exit()
+        else: 
+                print("Please choose between 1 or 2")
+
 def description():
     with open('description.txt','r')as f:
             description = f.read()
@@ -60,3 +75,4 @@ def description():
 description()
 user_info()
 question()
+retry_menu()
