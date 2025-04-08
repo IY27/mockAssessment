@@ -14,8 +14,10 @@ def user_info():
     age = int(input("Enter your age : "))
     if age < min_age:
         print("You are too young to do this quiz")
+        exit()
     elif age > max_age:
-         print("You are too old to do this quiz")
+        print("You are too old to do this quiz")
+        exit()
     else:
         option_menu()
 
